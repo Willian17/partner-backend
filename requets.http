@@ -1,0 +1,17 @@
+// fazer requisões com extensão do VSCODE (REST CLIENT)
+
+POST http://localhost:3333/projects 
+content-type: application/json
+
+{
+    "name": "Willian",
+    "avatar": "https://avatars2.githubusercontent.com/u/53010824?s=460&u=40f41a9ce155fe1a214f422849ad88fd7f0b9710&v=4",
+    "address": "Rondonópolis/MT",
+    "whatsapp": "66 999333655",
+    "email": "willianfenandes113@gmail.com" ,
+    "title": "Partner",
+    "description": "Plataforma para formar sócios, busco um programador parceiro"
+}
+
+###
+GET http://localhost:3333/projects
